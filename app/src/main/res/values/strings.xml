@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PM Labs</string>
+    <string name="lab_2">Lab 2</string>
+    <string name="lab_1">Lab 1</string>
+    <string name="android_labs">Android Labs</string>
+    <string name="back">Back</string>
+    <string name="text1">Андрусь Микита Сергійович</string>
+    <string name="text3">Інженерія Програмного Забезпечення</string>
+    <string name="trxt4">3 курс 180006Б</string>
+    <string name="text5">Навчитися програмувати мобільні додатки</string>
+</resources>
