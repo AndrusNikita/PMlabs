@@ -18,20 +18,28 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".AboutMe">
+            <intent-filter>
+                <action android:name=".AboutMe" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
         <activity android:name=".Lab1">
             <intent-filter>
                 <action android:name=".Lab1" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Lab2">
             <intent-filter>
                 <action android:name=".Lab2" />
+
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>
