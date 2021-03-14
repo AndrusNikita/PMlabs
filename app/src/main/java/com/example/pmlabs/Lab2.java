@@ -2,6 +2,7 @@ package com.example.pmlabs;
 
         import androidx.appcompat.app.AppCompatActivity;
 
+        import android.annotation.SuppressLint;
         import android.content.Intent;
         import android.os.Bundle;
         import android.view.View;
@@ -20,6 +21,7 @@ public class Lab2 extends AppCompatActivity {
         setContentView(R.layout.activity_lab2);
     }
 
+    @SuppressLint("DefaultLocale")
     public void onButtonClick (View v){
         EditText X = (EditText)findViewById(R.id.Xenter);
         TextView res = (TextView) findViewById(R.id.ResultText);

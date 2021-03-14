@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
+import android.text.method.ScrollingMovementMethod;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -25,6 +26,8 @@ public class Lab3 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lab3);
+        TextView res = (TextView) findViewById(R.id.ResultText);
+        res.setMovementMethod(new ScrollingMovementMethod());
     }
 
 
@@ -56,7 +59,7 @@ public class Lab3 extends AppCompatActivity {
             do {
                 Res = (Math.sqrt((pow(e, x)) - pow(Math.cos(pow(x, 2) * pow(a, 5)), 4)) + pow(atan(a - pow(x, 5)), 4)) / pow(abs(a + (x * pow(c, 4))), -e);
                 @SuppressLint("DefaultLocale") String res_string = String.format("%.2f", Res);
-                textRes = textRes+"\n------------------------------------\nX = "+x+";\nRes = "+res_string;
+                textRes = textRes+"\n----------------------------------------------------------------------------------------\nX = "+x+";\nRes = "+res_string;
 
                 x = x + Step;
             } while (x<=count);
