@@ -8,4 +8,10 @@
     <string name="text3">Інженерія Програмного Забезпечення</string>
     <string name="trxt4">3 курс 180006Б</string>
     <string name="text5">Навчитися програмувати мобільні додатки</string>
+    <string name="enter_x">Enter X</string>
+    <string name="enter_step">Enter step</string>
+    <string name="enter_count">Enter count</string>
+    <string name="calculate">Calculate</string>
+    <string name="lab_3">Lab 3</string>
+    <string name="load_last_values">Load last values</string>
 </resources>

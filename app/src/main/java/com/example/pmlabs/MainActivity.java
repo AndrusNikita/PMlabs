@@ -26,5 +26,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(lab2go);
     }
 
+    public void Lab3onClick(View v) {
+        Intent lab3go = new Intent(".Lab3");
+        startActivity(lab3go);
+    }
+
 
 }

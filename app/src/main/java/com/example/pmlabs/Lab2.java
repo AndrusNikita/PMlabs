@@ -1,16 +1,16 @@
 package com.example.pmlabs;
 
-import androidx.appcompat.app.AppCompatActivity;
+        import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
-import android.widget.EditText;
-import android.widget.TextView;
+        import android.content.Intent;
+        import android.os.Bundle;
+        import android.view.View;
+        import android.widget.EditText;
+        import android.widget.TextView;
 
-import static java.lang.Math.abs;
-import static java.lang.Math.atan;
-import static java.lang.Math.pow;
+        import static java.lang.Math.abs;
+        import static java.lang.Math.atan;
+        import static java.lang.Math.pow;
 
 public class Lab2 extends AppCompatActivity {
 
