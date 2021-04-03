@@ -26,7 +26,7 @@ public class Lab3 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lab3);
-        TextView res = (TextView) findViewById(R.id.ResultText);
+        TextView res = (TextView) findViewById(R.id.FileText);
         res.setMovementMethod(new ScrollingMovementMethod());
     }
 
@@ -74,7 +74,7 @@ public class Lab3 extends AppCompatActivity {
 
     public void onLoadClick (View v){
 
-        TextView res = (TextView) findViewById(R.id.ResultText);
+        TextView res = (TextView) findViewById(R.id.FileText);
 
         try {
             FileInputStream fileInput = openFileInput("Lab3text.txt");

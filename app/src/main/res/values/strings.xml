@@ -14,4 +14,7 @@
     <string name="calculate">Calculate</string>
     <string name="lab_3">Lab 3</string>
     <string name="load_last_values">Load last values</string>
+    <string name="title_activity_lab4">Lab4</string>
+    <string name="tab_text_1">Graph</string>
+    <string name="tab_text_2">Text File</string>
 </resources>

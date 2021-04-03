@@ -20,15 +20,17 @@ public class MainActivity extends AppCompatActivity {
         Intent lab1go = new Intent(".Lab1");
         startActivity(lab1go);
     }
-
     public void Lab2onClick(View v) {
         Intent lab2go = new Intent(".Lab2");
         startActivity(lab2go);
     }
-
     public void Lab3onClick(View v) {
         Intent lab3go = new Intent(".Lab3");
         startActivity(lab3go);
+    }
+    public void Lab4onClick(View v) {
+        Intent lab4go = new Intent(".Lab4");
+        startActivity(lab4go);
     }
 
 

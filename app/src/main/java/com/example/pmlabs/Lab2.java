@@ -24,7 +24,7 @@ public class Lab2 extends AppCompatActivity {
     @SuppressLint("DefaultLocale")
     public void onButtonClick (View v){
         EditText X = (EditText)findViewById(R.id.Xenter);
-        TextView res = (TextView) findViewById(R.id.ResultText);
+        TextView res = (TextView) findViewById(R.id.FileText);
 
         double x = Double.parseDouble(X.getText().toString());
         int e = 5;
