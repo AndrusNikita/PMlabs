@@ -32,6 +32,4 @@ public class MainActivity extends AppCompatActivity {
         Intent lab4go = new Intent(".Lab4");
         startActivity(lab4go);
     }
-
-
 }

@@ -30,7 +30,6 @@ public class Lab3 extends AppCompatActivity {
         res.setMovementMethod(new ScrollingMovementMethod());
     }
 
-
     public void onButtonClick (View v){
 
         EditText X = (EditText)findViewById(R.id.xenter1);
@@ -46,9 +45,11 @@ public class Lab3 extends AppCompatActivity {
         int c = 8;
         double Res;
         String textRes = "";
+        String textlab4 = "";
 
         try {
             FileOutputStream fileOutput = openFileOutput("Lab3text.txt", MODE_PRIVATE);
+            FileOutputStream fileOutput4 = openFileOutput("Lab4text.txt", MODE_PRIVATE);
 
             String stepStr = "Step = "+Step;
             String countStr = "\nThe number of cycles = "+count;
@@ -60,12 +61,15 @@ public class Lab3 extends AppCompatActivity {
                 Res = (Math.sqrt((pow(e, x)) - pow(Math.cos(pow(x, 2) * pow(a, 5)), 4)) + pow(atan(a - pow(x, 5)), 4)) / pow(abs(a + (x * pow(c, 4))), -e);
                 @SuppressLint("DefaultLocale") String res_string = String.format("%.2f", Res);
                 textRes = textRes+"\n----------------------------------------------------------------------------------------\nX = "+x+";\nRes = "+res_string;
+                textlab4 = textlab4+x+" "+res_string+"\n";
 
                 x = x + Step;
             } while (x<=count);
 
             fileOutput.write(textRes.getBytes());
             fileOutput.close();
+            fileOutput4.write(textlab4.getBytes());
+            fileOutput4.close();
         }
         catch (IOException ex) {
             ex.printStackTrace();
